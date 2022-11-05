@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Controller
  */
-@WebServlet(urlPatterns={"/Controller" , "/main"})
+@WebServlet(urlPatterns={"/Controller" , "/main"}) // Adicionado , main é uma requisição que o servlet vai trabalhar
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
